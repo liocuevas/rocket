@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="./logo.png" width="493" height="487" /><br>
-  Rocket - Source Code and Text Editor for the javascript developer.
+  Rocket - Source Code Editor for the javascript developer
 </h1>
 
 # Rocket
