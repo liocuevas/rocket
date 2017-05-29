@@ -3,8 +3,6 @@
   Rocket - Source Code Editor for the javascript developer
 </h1>
 
-# Rocket
-
 **TL;DR**
 
 This is a minimal source code and text editor built with Electron and React. (in progress)
