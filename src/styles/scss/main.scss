@@ -1,0 +1,38 @@
+$body-bg: #2B2E36;
+$app-fg: #F9F9F9;
+$gutter-bg: #272C3A;
+
+body {
+  background-color: $body-bg;
+}
+div.app {
+  color: $app-fg;
+}
+#editor {
+  width: 100%;
+  height: 100%;
+}
+.ace_editor {
+  background-color: $body-bg;
+  color: $app-fg;
+}
+.ace-tm .ace_gutter {
+  background-color: $body-bg;
+  color: $app-fg;
+}
+.ace-tm .ace_gutter:active {
+  background-color: $gutter-bg;
+  color: $app-fg;
+}
+.ace_gutter-cell {
+  background-color: $gutter-bg;
+  color: $app-fg;
+}
+.ace_gutter-active-line {
+  background-color: $gutter-bg;
+  color: $app-fg;
+}
+div.ace_layer.ace_gutter-layer.ace_folding-enabled {
+  background-color: $gutter-bg;
+  color: $app-fg;
+}

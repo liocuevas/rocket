@@ -1,10 +1,22 @@
 import React from 'react';
 
-require('../less/main.less');
+import brace from 'brace';
+import AceEditor from 'react-ace';
+
+import 'brace/mode/javascript';
+import '../styles/scss/main.scss';
 
 function App() {
   return (
-    <div className="app">Rocket app</div>
+    <div className="app">
+      <AceEditor
+        mode="javascript"
+        onChange={(newValue) => {}}
+        name="editor"
+        fontSize={14}
+        editorProps={{$blockScrolling: true}}
+      />
+    </div>
   );
 }
 
